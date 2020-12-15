@@ -18,7 +18,7 @@ use Sonata\MediaBundle\Model\MediaInterface;
 use Sonata\MediaBundle\Security\RolesDownloadStrategy;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Security\Core\Authorization\AuthorizationCheckerInterface;
-use Symfony\Component\Translation\TranslatorInterface;
+use Symfony\Contracts\Translation\TranslatorInterface;
 
 class RolesDownloadStrategyTest extends TestCase
 {

@@ -19,7 +19,7 @@ use Sonata\MediaBundle\Security\SessionDownloadStrategy;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Session\Session;
-use Symfony\Component\Translation\TranslatorInterface;
+use Symfony\Contracts\Translation\TranslatorInterface;
 
 /**
  * @author Ahmet Akbana <ahmetakbana@gmail.com>

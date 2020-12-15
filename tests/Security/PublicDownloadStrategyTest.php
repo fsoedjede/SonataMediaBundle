@@ -17,7 +17,7 @@ use PHPUnit\Framework\TestCase;
 use Sonata\MediaBundle\Model\MediaInterface;
 use Sonata\MediaBundle\Security\PublicDownloadStrategy;
 use Symfony\Component\HttpFoundation\Request;
-use Symfony\Component\Translation\TranslatorInterface;
+use Symfony\Contracts\Translation\TranslatorInterface;
 
 class PublicDownloadStrategyTest extends TestCase
 {
