@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace Sonata\MediaBundle\Controller;
 
-use Sonata\AdminBundle\Controller\CRUDController as Controller;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Form\FormRenderer;
 use Symfony\Component\Form\FormView;
 use Symfony\Component\HttpFoundation\Request;
@@ -22,7 +22,7 @@ use Symfony\Component\HttpFoundation\Response;
 /**
  * @final since sonata-project/media-bundle 3.21.0
  */
-class GalleryAdminController extends Controller
+class GalleryAdminController extends AbstractController
 {
     /**
      * @param string   $view
